@@ -7,5 +7,4 @@ Change $WALLET.</br>
 Save.</br>
 
 chmod 777 delegate.sh delegate.exp</br>
-chmod 777 delegate.exp</br>
 ./delegate.exp
