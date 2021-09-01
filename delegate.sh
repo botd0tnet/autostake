@@ -14,7 +14,7 @@ umeed tx distribution withdraw-rewards $VAL_WALLET --commission --yes --gas auto
 sleep 2
 
 
-umeed tx staking redelegate $VAL_WALLET $VAL_WALLET $BALANCE${RATE} --gas auto --fees 1000${RATE} --from $WALLET --chain-id $CHAINID -y
+umeed tx staking delegate $VAL_WALLET $BALANCE${RATE} --gas auto --fees 1000${RATE} --from $WALLET --chain-id $CHAINID -y
 
 sleep 2
 
