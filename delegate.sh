@@ -22,6 +22,9 @@ BALANCE=$((BALANCE - 100000))
 
 sleep 2
 
+printf "%b\n\n\n" "--------------------------------------------------------------------------------"
+printf "%b\n\n\n"
+
 umeed tx staking delegate $VAL_WALLET $BALANCE${RATE} --gas auto --fees 1000${RATE} --from $WALLET --chain-id $CHAINID -y
 
 sleep 2
