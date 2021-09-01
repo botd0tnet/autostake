@@ -23,4 +23,8 @@ expect "Enter keyring passphrase:"
 send "$PASSWD\r"
 sleep 1
 
+expect "Enter keyring passphrase:"
+send "$PASSWD\r"
+sleep 1
+
 interact
