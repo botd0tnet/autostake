@@ -11,7 +11,7 @@ BALANCE=$((BALANCE - 1000000))
 
 umeed tx distribution withdraw-rewards $VAL_WALLET --commission --yes --gas auto --fees 1000${RATE} --from $WALLET --chain-id $CHAINID -y
 
-sleep 2
+sleep 10
 
 
 umeed tx staking delegate $VAL_WALLET $BALANCE${RATE} --gas auto --fees 1000${RATE} --from $WALLET --chain-id $CHAINID -y
