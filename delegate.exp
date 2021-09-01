@@ -1,9 +1,9 @@
-#!/usr/bin/expect
+#!/usr/bin/expect -f
 
-spawn /root/autostate/delegate.sh
+spawn ./delegate.sh
 
 
-$PASSWD="1234jqka12"
+set PASSWD "1234jqka12"
 
 
 
