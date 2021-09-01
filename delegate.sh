@@ -17,6 +17,7 @@ umeed tx distribution withdraw-rewards $VAL_WALLET --commission --yes --gas auto
 sleep 10
 
 BALANCE=$(umeed query bank balances $ADD_WALLET | grep "amount" | cut -d'"' -f 2)
+BALANCE=$(echo $BALANCE | cut -d' ' -f 2)
 BALANCE=$((BALANCE - 100000))
 
 sleep 2
