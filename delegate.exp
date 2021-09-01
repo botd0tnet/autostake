@@ -1,0 +1,26 @@
+#!/usr/bin/expect
+
+spawn /root/autostate/delegate.sh
+
+
+$PASSWD="1234jqka12"
+
+
+
+expect "Enter keyring passphrase:"
+send "$PASSWD\r"
+sleep 1
+
+expect "Enter keyring passphrase:"
+send "$PASSWD\r"
+sleep 1
+
+expect "Enter keyring passphrase:"
+send "$PASSWD\r"
+sleep 1
+
+expect "Enter keyring passphrase:"
+send "$PASSWD\r"
+sleep 1
+
+interact
