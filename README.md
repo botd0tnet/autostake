@@ -7,12 +7,13 @@ Change $WALLET.</br>
 Save.</br>
 
 chmod 777 delegate.sh delegate.exp</br>
-
+cd
 
 screen -S Umee
 
-  for(( i=1; i <=9999; i++ ))
-  do
-    ./delegate.exp
-  done
+cd autostake</br>
+  for(( i=1; i <=9999; i++ ))<br/>
+  do<br/>
+    ./delegate.exp<br/>
+  done<br/>
 
