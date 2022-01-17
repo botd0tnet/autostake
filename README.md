@@ -6,7 +6,7 @@ sudo git clone https://github.com/botd0tnet/autostake && cd autostake && nano de
 Change $WALLET, password (xxx) </br>
 Save.</br>
 
-chmod 777 delegate.sh delegate.exp</br>
+chmod 777 delegate.sh</br>
 cd
 
 screen -S Umee
