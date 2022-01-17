@@ -12,5 +12,5 @@ cd
 screen -S Umee
 
 cd autostake</br>
-  bash ./delegate.sh<br/>
+  bash delegate.sh<br/>
 
